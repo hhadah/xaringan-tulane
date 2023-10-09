@@ -162,9 +162,9 @@ If you want the University Logo to show up on the title slide, you'll also need
 - `TulaneLogo-black.svg`
 ]
 
-These are available in the assets folder of the GitHub code repository [`r icons::fontawesome("github")` `hhadah/xaringan-tulane`](http://github.com/hhadah/xaringan-tulane/assets)
+These are available in the assets folder of the GitHub code repository [`r icons::fontawesome("github")` `hhadah/xaringan-tulane`](https://github.com/hhadah/xaringan-tulane/tree/master/assets)
 
-To make things easy to get started, I recommend downloading a copy of the `xaringan-tulane` repo [`r icons::fontawesome("file-archive")`](https://github.com/hhadah/xaringan-tulane/archive/master.zip) and make changes to the template. 
+To make things easy to get started, I recommend downloading a copy of the `xaringan-tulane` repo and make changes to the template. 
 
 ---
 ## Summary Statistics
@@ -1195,19 +1195,19 @@ background-position: 5% 95%
 
 .pull-right[.pull-down[
 
-<a href="mailto:hhadah@Tulane.edu">
-.white[`r icons::fontawesome("paper-plane")` hhadah@Tulane.edu]
+<a href="mailto:hhadah@tulane.edu">
+.white[`r icons::fontawesome("paper-plane")` hhadah@tulane.edu]
 </a>
 
-<a href="https://hhadah.github.io/">
-.white[`r icons::fontawesome("link")` https://hhadah.github.io/]
+<a href="https://hussainhadah.com/">
+.white[`r icons::fontawesome("link")` https://hussainhadah.com/]
 </a>
 
 <a href="http://twitter.com/HHeddeh">
 .white[`r icons::fontawesome("twitter")` @HHeddeh]
 </a>
 
-<a href="https://hhadah.github.io/">
+<a href="https://github.com/hhadah">
 .white[`r icons::fontawesome("github")` @hhadah]
 </a>
 
