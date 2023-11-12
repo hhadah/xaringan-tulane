@@ -15,7 +15,7 @@ To specify the margin of the first title h1
   margin-bottom: 10px;
 }
 .remark-slide-content > h2:first-of-type {
-  color: #336666;
+  color: #285c4d;
   margin-top: 5px;
   margin-bottom: 10px;
 }
@@ -75,19 +75,20 @@ To specify the margin of the first title h1
   background-color: #CC9900;
 }
 .tulane-green {
-  background-color: #336666;
+  background-color: #285c4d;
   color: white;
 }
 .tulane-crawfest {
   background-color: #CC0033;
   color: black;
 }
+
 /* segue */
 .segue {
-  text-align:center;
+  text-align: center;
   vertical-align: middle;
   background-color: #0148A4;
-  color: #000000;
+  color: #FFFFFF;  /* Updated color to white */
   text-shadow: 0 0 20px #333;
 }
 .segue .remark-slide-number {
@@ -95,10 +96,10 @@ To specify the margin of the first title h1
 }
 
 .segue-green {
-  text-align:center;
+  text-align: center;
   vertical-align: middle;
-  background-color: #336666;
-  color: #000000;
+  background-color: #285c4d;
+  color: #FFFFFF;  /* Updated color to white */
   text-shadow: 0 0 20px #333;
 }
 .segue-green .remark-slide-number {
@@ -106,10 +107,10 @@ To specify the margin of the first title h1
 }
 
 .segue-yellow {
-  text-align:center;
+  text-align: center;
   vertical-align: middle;
   background-color: #FFB800;
-  color: #424242;
+  color: #FFFFFF;  /* Updated color to white */
   text-shadow: 0 0 2px #333;
 }
 .segue-yellow .remark-slide-number {
@@ -357,7 +358,7 @@ slides > slide {
   /*
   background-position: 10% 90%, 100% 50%;
   background-size: 160px, 50% 100%;
-  background-color: #336666;
+  background-color: #285c4d;
   /*padding-left: 100px;   delete this for 4:3 aspect ratio */
 /*
 }
@@ -368,7 +369,7 @@ slides > slide {
   /* background-image: url(https://sydney.edu.au/etc/designs/corporate-commons/bower_components/corporate-frontend/dist/assets/img/TulaneLogo.svg); */
   background-position: 10% 90%;
   background-size: 320px;
-  background-color: #336666;
+  background-color: #285c4d;
   text-align:left;
   vertical-align: top;
   text-shadow: none;
@@ -427,8 +428,8 @@ blockquote, .blockquote {
   border-bottom: solid 2px #0148A4;
   border-right: solid 2px #0148A4;
   box-shadow: 0 0 6px rgba(0,0,0,0.5);
-  /* background-color: #336666; */
-  color: #336666;
+  /* background-color: #285c4d; */
+  color: #285c4d;
   padding: 0.5em;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -476,7 +477,7 @@ Masterbrand charcoal #424242;
 C=0 M=0 Y=0 K=90 
 R=66 G=66 B=66 
 
-Masterbrand red #336666;
+Masterbrand red #285c4d;
 C=0 M=0 Y=0 K=90
 R=66 G=66 B=66 
 
@@ -500,3 +501,24 @@ Accent grey - supportive #F1F1F1
 C=0 M=0 Y=0 K=10
 R=241 G=241 B=241 
 */
+
+
+.tulane-blue h1, .tulane-blue h2, .tulane-blue h3, .tulane-blue h4, .tulane-blue h5, .tulane-blue h6,
+.tulane-blue .remark-slide-content h1, .tulane-blue .remark-slide-content h2, .tulane-blue .remark-slide-content h3, .tulane-blue .remark-slide-content h4, .tulane-blue .remark-slide-content h5, .tulane-blue .remark-slide-content h6 {
+  color: #FFFFFF !important;
+}
+
+.tulane-yellow h1, .tulane-yellow h2, .tulane-yellow h3, .tulane-yellow h4, .tulane-yellow h5, .tulane-yellow h6,
+.tulane-yellow .remark-slide-content h1, .tulane-yellow .remark-slide-content h2, .tulane-yellow .remark-slide-content h3, .tulane-yellow .remark-slide-content h4, .tulane-yellow .remark-slide-content h5, .tulane-yellow .remark-slide-content h6 {
+  color: #FFFFFF !important;
+}
+
+.tulane-green h1, .tulane-green h2, .tulane-green h3, .tulane-green h4, .tulane-green h5, .tulane-green h6,
+.tulane-green .remark-slide-content h1, .tulane-green .remark-slide-content h2, .tulane-green .remark-slide-content h3, .tulane-green .remark-slide-content h4, .tulane-green .remark-slide-content h5, .tulane-green .remark-slide-content h6 {
+  color: #FFFFFF !important;
+}
+
+.tulane-crawfest h1, .tulane-crawfest h2, .tulane-crawfest h3, .tulane-crawfest h4, .tulane-crawfest h5, .tulane-crawfest h6,
+.tulane-crawfest .remark-slide-content h1, .tulane-crawfest .remark-slide-content h2, .tulane-crawfest .remark-slide-content h3, .tulane-crawfest .remark-slide-content h4, .tulane-crawfest .remark-slide-content h5, .tulane-crawfest .remark-slide-content h6 {
+  color: #FFFFFF !important;
+}

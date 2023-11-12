@@ -1217,11 +1217,10 @@ background-position: 5% 95%
 
 
 ```{r gen_pdf, include = FALSE, cache = FALSE, eval = FALSE}
+library(renderthis)
+# https://hhadah.github.io/xaringan/index.html
 
-# https://hhadah.github.io/MicroSlides/MyPresentations/intro/intro.html
-
-infile = list.files(path = "/Users/hhadah/Documents/GiT/Tulane_temp", pattern = 'index.html')
-pagedown::chrome_print(input = infile, timeout = 100)
-xaringan::inf_mr() 
+to_pdf(from = "~/Documents/GiT/xaringan-tulane/index.html", 
+       to = "~/Documents/GiT/xaringan-tulane/index.pdf")
+to_pdf(from = "~/Documents/GiT/xaringan-tulane/index.html")
 ```
-
