@@ -129,7 +129,7 @@ cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2"
     /* Table width = 100% max-width */
 
     .remark-slide table{
-        width: 100%;
+        width: auto !important; /* Adjusts table width */
     }
 
     /* Change the background color to white for shaded rows (even rows) */

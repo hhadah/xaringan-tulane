@@ -317,7 +317,7 @@ slides > slide {
 
 @page { margin: 0; }
 @media print {
-  /*
+  
   .inverse, .segue, .segue-yellow, .segue-green, .Tulane-teal,
   .Tulane-gold, .Tulane-red {
     background-color: transparent;
@@ -331,7 +331,7 @@ slides > slide {
   }
   .eg {
     background-color: transparent;
-  }*/
+  }
   .remark-slide-scaler {
     width: 100% !important;
     height: 100% !important;
